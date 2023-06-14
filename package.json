@@ -14,19 +14,17 @@
     "@strapi/plugin-users-permissions": "4.11.1",
     "@strapi/strapi": "4.11.1",
     "better-sqlite3": "8.0.1",
-    "knex": "^0.21.21",
-    "objection": "^2.1.3",
-    "pg": "^8.0.3"
+    "pg": "^8.11.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "66d22843-0b38-4719-8cce-c55b8101807f"
+    "uuid": "f1f450e2-02e4-41b0-89bc-c24156ba2f50"
   },
   "engines": {
-    "node": ">=14.9.0 <=18.x.x",
-    "npm": ">=7.21.0"
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
