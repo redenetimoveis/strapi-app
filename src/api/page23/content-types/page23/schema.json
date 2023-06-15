@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page23s",
+  "info": {
+    "singularName": "page23",
+    "pluralName": "page23s",
+    "displayName": "page23"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "num1": {
+      "type": "integer"
+    }
+  }
+}

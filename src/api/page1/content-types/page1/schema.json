@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page1s",
+  "info": {
+    "singularName": "page1",
+    "pluralName": "page1s",
+    "displayName": "page1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Data": {
+      "type": "date"
+    },
+    "texto": {
+      "type": "richtext"
+    }
+  }
+}
