@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "displayName": "socialLink",
+    "icon": "paperPlane"
+  },
+  "options": {},
+  "attributes": {
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "LinkedIn.",
+        "Facebook.",
+        "Instagram.",
+        "Twitter."
+      ],
+      "default": "LinkedIn.",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

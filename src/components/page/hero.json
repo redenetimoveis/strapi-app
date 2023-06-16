@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    }
+  }
+}
