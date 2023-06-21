@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_v2s",
+  "info": {
+    "singularName": "menu-v2",
+    "pluralName": "menu-v2s",
+    "displayName": "Menu_v2"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link",
+      "required": false
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    }
+  }
+}
