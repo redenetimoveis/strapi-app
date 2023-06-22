@@ -25,7 +25,7 @@
     },
     "createdById": {
       "type": "integer",
-      "unique": false,
+      "unique": true,
       "displayName": false
     },
     "BoxAssociada": {

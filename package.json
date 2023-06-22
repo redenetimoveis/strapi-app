@@ -16,7 +16,6 @@
     "@strapi/strapi": "4.11.1",
     "better-sqlite3": "8.0.1",
     "pg": "^8.11.0",
-    "strapi-plugin-custom-api": "^1.0.4",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
   },
   "author": {
