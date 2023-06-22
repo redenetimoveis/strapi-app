@@ -12,11 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AgenciaID": {
+    "AssociadaID": {
       "type": "integer"
     },
-    "Agencia": {
+    "Associada": {
       "type": "string"
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    },
+    "createdById": {
+      "type": "integer",
+      "unique": false,
+      "displayName": false
+    },
+    "BoxAssociada": {
+      "type": "enumeration",
+      "enum": [
+        "GPO",
+        "Netimoveis",
+        "meiaumimoveis"
+      ]
     }
   }
 }
