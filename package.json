@@ -8,14 +8,20 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "generate": "strapi generate"
+    "generate": "strapi generate",
+    "generate-admin-patches": "npx patch-package@strapi/admin",
+    "apply-admin-patches": "npx patch-package",
+    "translate": "cp -a ./src/admin/extensions/translations/. ./node_modules/@strapi/admin/admin/src/translations"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.11.1",
-    "@strapi/plugin-users-permissions": "4.11.1",
-    "@strapi/strapi": "4.11.1",
+    "@strapi/admin": "^4.11.2",
+    "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/strapi": "4.11.2",
     "better-sqlite3": "8.0.1",
+    "patch-package": "^7.0.0",
     "pg": "^8.11.0",
+    "postinstall-postinstall": "^2.1.0",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",
     "strapi-provider-upload-azure-storage": "^3.1.3"
   },
