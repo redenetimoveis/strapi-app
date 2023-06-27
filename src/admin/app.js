@@ -1,6 +1,7 @@
 import AuthLogo from './extensions/logo-N.jpg';
 import MenuLogo from './extensions/logo-N.jpg';
 import favicon from './extensions/favicon.ico';
+import styled from 'styled-components';
 
 export default {
   config: {
@@ -71,7 +72,7 @@ export default {
         'app.components.LeftMenu.navbrand.workplace': 'Painel',
         'app.components.HomePage.button.blog': "Netimóveis",
         'app.components.HomePage.welcomeBlock.content.again': 'Fique por dentro das últimas novidades sobre o Strapi. Estamos sempre dando o nosso melhor para melhorar o produto sempre baseando-se em sua opinião.',
-        /* 'app.components.BlockLink.cloud': " ",
+        'app.components.BlockLink.cloud': " ",
         'app.components.BlockLink.cloud.content': " ",
         'app.components.BlockLink.documentation.content': " ",
         'app.components.BlockLink.code': " ",
@@ -79,12 +80,12 @@ export default {
         'app.components.BlockLink.tutorial': " ",
         'app.components.BlockLink.tutorial.content': " ",
         'app.components.BlockLink.blog': " ",
-        'app.components.BlockLink.blog.content': " ", */
+        'app.components.BlockLink.blog.content': " ",
         'global.documentation': " ",
         'global.content-manager': "Gerenciar Conteúdo",
         'HomePage.helmet.title': "Início",
-
-        /* "app.components.HomePage.roadmap": " ",
+        'app.components.BlockLink': " ",
+        "app.components.HomePage.roadmap": " ",
         "app.components.HomePage.community": " ",
         "app.components.HomePage.community.content": " ",
         'app.components.HomePage.community.links': ' ',
@@ -95,14 +96,13 @@ export default {
         'app.components.HomePage.community.links.forum': " ",
         'app.components.HomePage.community.links.blog': " ",
         'app.components.HomePage.community.links.career': " ",
-        'Settings.application.get-help': " ", */
+        'Settings.application.get-help': " ",
       }    
     },
    // Disable video tutorials
     tutorials: false,
    // Disable notifications about new Strapi releases
-    notifications: { releases: false },
+    notifications: { releases: false },   
   },
-
-  bootstrap() {}
+  bootstrap() {},
 };
