@@ -84,7 +84,7 @@ export default {
         'global.documentation': " ",
         'global.content-manager': "Gerenciar Conteúdo",
         'HomePage.helmet.title': "Início",
-        'app.components.BlockLink': " ",
+
         "app.components.HomePage.roadmap": " ",
         "app.components.HomePage.community": " ",
         "app.components.HomePage.community.content": " ",
