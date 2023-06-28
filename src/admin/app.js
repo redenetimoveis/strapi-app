@@ -55,7 +55,7 @@ export default {
     // Extend the translations
     translations: {
       en: {
-        'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
+        /* 'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
         'app.components.LeftMenu.navbrand.workplace': 'Admin panel',
         'app.components.HomePage.welcome.again': 'Bem-vindo ao Strapi',
         'app.components.HomePage.welcomeBlock.content.again': ' ',
@@ -64,15 +64,17 @@ export default {
         'app.components.HomePage.button.blog': ' ',
         'app.components.HomePage.create': ' ',
         "global.content-manager": "Conteúdo",
-        "global.plugins.content-manager": "Content Manager",
+        "global.plugins.content-manager": "Content Manager", */
       },  
       'pt-BR': {
         "Auth.form.welcome.title": "Bem-vindo ao Strapi",
         'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
         'app.components.LeftMenu.navbrand.workplace': 'Painel',
-        'app.components.HomePage.button.blog': "Netimóveis",
+        // 'app.components.HomePage.button.blog': "Netimóveis",
         'app.components.HomePage.welcomeBlock.content.again': 'Fique por dentro das últimas novidades sobre o Strapi. Estamos sempre dando o nosso melhor para melhorar o produto sempre baseando-se em sua opinião.',
-        'app.components.BlockLink.cloud': " ",
+        'global.content-manager': "Gerenciar Conteúdo",
+        'HomePage.helmet.title': "Início",
+        /* 'app.components.BlockLink.cloud': " ",
         'app.components.BlockLink.cloud.content': " ",
         'app.components.BlockLink.documentation.content': " ",
         'app.components.BlockLink.code': " ",
@@ -82,9 +84,6 @@ export default {
         'app.components.BlockLink.blog': " ",
         'app.components.BlockLink.blog.content': " ",
         'global.documentation': " ",
-        'global.content-manager': "Gerenciar Conteúdo",
-        'HomePage.helmet.title': "Início",
-
         "app.components.HomePage.roadmap": " ",
         "app.components.HomePage.community": " ",
         "app.components.HomePage.community.content": " ",
@@ -96,7 +95,7 @@ export default {
         'app.components.HomePage.community.links.forum': " ",
         'app.components.HomePage.community.links.blog': " ",
         'app.components.HomePage.community.links.career': " ",
-        'Settings.application.get-help': " ",
+        'Settings.application.get-help': " ", */
       }    
     },
    // Disable video tutorials
@@ -104,5 +103,7 @@ export default {
    // Disable notifications about new Strapi releases
     notifications: { releases: false },   
   },
-  bootstrap() {},
+  bootstrap() {
+    
+  },
 };
