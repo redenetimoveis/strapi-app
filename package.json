@@ -12,14 +12,14 @@
     "generate-admin-patches": "npx patch-package@strapi/admin",
     "apply-admin-patches": "npx patch-package",
     "translate": "cp -a ./src/admin/extensions/translations/. ./node_modules/@strapi/admin/admin/src/translations",
-    "patch-admin" : "node src/extensions/patch-admin.js && patch-package @strapi/admin"
+    "patch-admin": "node src/extensions/patch-admin.js && patch-package @strapi/admin"
   },
   "dependencies": {
     "@strapi/admin": "^4.11.2",
     "@strapi/plugin-i18n": "4.11.2",
     "@strapi/plugin-users-permissions": "4.11.2",
     "@strapi/strapi": "4.11.2",
-    "better-sqlite3": "8.0.1",
+    "better-sqlite3": "^8.0.1",
     "patch-package": "^7.0.0",
     "pg": "^8.11.0",
     "postinstall-postinstall": "^2.1.0",
