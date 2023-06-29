@@ -94,7 +94,7 @@ logs
 results
 !node_modules
 node_modules/*
-!node_modules/@strapi/admin/admin/src
+!node_modules/@strapi
 .node_history
 
 ############################
