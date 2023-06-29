@@ -92,8 +92,9 @@ lcov.info
 pids
 logs
 results
-node_modules
-!node_modules/@strapi/admin/
+!node_modules
+node_modules/*
+!node_modules/@strapi/admin/admin/src
 .node_history
 
 ############################
