@@ -10,7 +10,6 @@ import CloudBox from './CloudBox';
 
 const BlockLink = styled.a`
   text-decoration: none;
-  display: none;
 `;
 
 const ContentBlocks = () => {
