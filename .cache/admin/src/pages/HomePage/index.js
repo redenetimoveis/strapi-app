@@ -78,14 +78,14 @@ const HomePage = () => {
               />
             </GridItem>
           </Grid>
-          {/* <Grid gap={6}>
+          <Grid gap={6}>
             <GridItem col={8} s={12}>
               {showGuidedTour ? <GuidedTourHomepage /> : <ContentBlocks />}
             </GridItem>
             <GridItem col={4} s={12}>
               <SocialLinks />
             </GridItem>
-          </Grid> */}
+          </Grid>
         </Box>
       </Main>
     </Layout>

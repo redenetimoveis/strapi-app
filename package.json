@@ -15,10 +15,10 @@
     "patch-admin": "node src/extensions/patch-admin.js && patch-package @strapi/admin"
   },
   "dependencies": {
-    "@strapi/admin": "^4.11.2",
-    "@strapi/plugin-i18n": "4.11.2",
-    "@strapi/plugin-users-permissions": "4.11.2",
-    "@strapi/strapi": "4.11.2",
+    "@strapi/admin": "^4.11.3",
+    "@strapi/plugin-i18n": "4.11.3",
+    "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/strapi": "4.11.3",
     "better-sqlite3": "^8.0.1",
     "patch-package": "^7.0.0",
     "pg": "^8.11.0",
