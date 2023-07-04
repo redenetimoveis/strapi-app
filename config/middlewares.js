@@ -6,12 +6,14 @@ module.exports = [
   'strapi::logger',
   'strapi::query',
   'strapi::body',
-  'strapi::session',
   'strapi::favicon',
   'strapi::public',
   {
     name: "strapi::security",
     config: {
+        frameguard: false,
+        xssFilter: true,
+        /* "frameguard.action": sameorigin, */
     contentSecurityPolicy: {
         useDefaults: true,
         directives: {
@@ -42,6 +44,13 @@ module.exports = [
         upgradeInsecureRequests: null,
         },
     },
+    },
+  },
+  {
+    name: 'strapi::session',
+    config: {
+      rolling: true,
+      maxAge: 86400000
     },
   },
 ];
