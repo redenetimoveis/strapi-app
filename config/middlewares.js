@@ -47,10 +47,10 @@ module.exports = [
     },
   },
   {
-    name: 'strapi::session',
+    name: "strapi::session",
     config: {
       rolling: true,
-      maxAge: 86400000
+      maxAge: 8640000
     },
   },
 ];
