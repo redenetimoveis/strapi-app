@@ -42,7 +42,7 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
                     'Congrats! You are logged as the first administrator. To discover the powerful features provided by Strapi, we recommend you to create your first Content type!',
                 })}
           </WordWrap>
-          {hasCreatedContentType ? (
+          {/* {hasCreatedContentType ? (
             <Link isExternal href="https://netimoveis.com">
               {formatMessage({
                 id: 'app.components.HomePage.button.blog',
@@ -56,7 +56,7 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
                 defaultMessage: 'Create your first Content type',
               })}
             </Button>
-          )}
+          )} */}
         </Flex>
       </Box>
     </div>
