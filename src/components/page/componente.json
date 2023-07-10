@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_componentes",
+  "info": {
+    "displayName": "Componente",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "TextoComponente": {
+      "type": "string"
+    },
+    "NumeroComponente": {
+      "type": "integer"
+    }
+  }
+}

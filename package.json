@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@strapi/admin": "^4.11.3",
+    "@strapi/plugin-color-picker": "^4.11.4",
     "@strapi/plugin-i18n": "4.11.3",
     "@strapi/plugin-users-permissions": "4.11.3",
     "@strapi/strapi": "4.11.3",
@@ -24,6 +25,8 @@
     "patch-package": "^7.0.0",
     "pg": "^8.11.0",
     "postinstall-postinstall": "^2.1.0",
+    "strapi-plugin-multi-select": "^1.1.0",
+    "strapi-plugin-sitemap": "^3.0.0",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",
     "strapi-provider-upload-azure-storage": "^3.1.3"
   },
