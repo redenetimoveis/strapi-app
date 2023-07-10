@@ -1,51 +1,20 @@
-diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/CloudBox.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/CloudBox.js
-index f67b7a0..696f2e4 100644
---- a/node_modules/@strapi/admin/admin/src/pages/HomePage/CloudBox.js
-+++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/CloudBox.js
-@@ -11,6 +11,7 @@ import cloudIcon from './assets/strapi-cloud-icon.svg';
- 
- const BlockLink = styled.a`
-   text-decoration: none;
-+  /* display: none; */
- `;
- 
- const CloudCustomWrapper = styled(Box)`
-diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
-index 84ec0ac..9fba55d 100644
---- a/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
-+++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
-@@ -10,6 +10,7 @@ import CloudBox from './CloudBox';
- 
- const BlockLink = styled.a`
-   text-decoration: none;
-+  /* display: none; */
- `;
- 
- const ContentBlocks = () => {
 diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js
-index 8fb94c5..9755e8a 100644
+index 8fb94c5..9560d7c 100644
 --- a/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js
 +++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js
-@@ -42,8 +42,8 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
-                     'Congrats! You are logged as the first administrator. To discover the powerful features provided by Strapi, we recommend you to create your first Content type!',
+@@ -43,10 +43,10 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
                  })}
            </WordWrap>
--          {hasCreatedContentType ? (
+           {hasCreatedContentType ? (
 -            <Link isExternal href="https://strapi.io/blog">
-+          {/* {hasCreatedContentType ? (
 +            <Link isExternal href="https://netimoveis.com">
                {formatMessage({
                  id: 'app.components.HomePage.button.blog',
-                 defaultMessage: 'See more on the blog',
-@@ -56,7 +56,7 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
-                 defaultMessage: 'Create your first Content type',
+-                defaultMessage: 'See more on the blog',
++                defaultMessage: 'See more 1',
                })}
-             </Button>
--          )}
-+          )} */}
-         </Flex>
-       </Box>
-     </div>
+             </Link>
+           ) : (
 diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
 index 2d44595..4d8e552 100644
 --- a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
