@@ -43,7 +43,7 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
                 })}
           </WordWrap>
           {hasCreatedContentType ? (
-            <Link isExternal href="https://strapi.io/blog">
+            <Link isExternal href="https://netimoveis.com">
               {formatMessage({
                 id: 'app.components.HomePage.button.blog',
                 defaultMessage: 'See more on the blog',
