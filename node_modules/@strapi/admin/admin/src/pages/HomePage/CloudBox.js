@@ -11,7 +11,7 @@ import cloudIcon from './assets/strapi-cloud-icon.svg';
 
 const BlockLink = styled.a`
   text-decoration: none;
-  display: none;
+  /* display: none; */
 `;
 
 const CloudCustomWrapper = styled(Box)`
