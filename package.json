@@ -12,7 +12,8 @@
     "generate-admin-patches": "npx patch-package@strapi/admin",
     "apply-admin-patches": "npx patch-package",
     "translate": "cp -a ./src/admin/extensions/translations/. ./node_modules/@strapi/admin/admin/src/translations",
-    "patch-admin": "node src/extensions/patch-admin.js && patch-package @strapi/admin"
+    "patch-admin": "node src/extensions/patch-admin.js && patch-package @strapi/admin",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@strapi/admin": "^4.11.3",
