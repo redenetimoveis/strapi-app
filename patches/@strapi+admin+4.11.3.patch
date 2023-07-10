@@ -1,3 +1,15 @@
+diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
+index 84ec0ac..3829b48 100644
+--- a/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
++++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/ContentBlocks.js
+@@ -10,6 +10,7 @@ import CloudBox from './CloudBox';
+ 
+ const BlockLink = styled.a`
+   text-decoration: none;
++  display: none;
+ `;
+ 
+ const ContentBlocks = () => {
 diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js
 index 8fb94c5..9560d7c 100644
 --- a/node_modules/@strapi/admin/admin/src/pages/HomePage/HomeHeader.js
@@ -15,24 +27,3 @@ index 8fb94c5..9560d7c 100644
                })}
              </Link>
            ) : (
-diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
-index 2d44595..4d8e552 100644
---- a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
-+++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
-@@ -78,14 +78,14 @@ const HomePage = () => {
-               />
-             </GridItem>
-           </Grid>
--          <Grid gap={6}>
-+          {/* <Grid gap={6}>
-             <GridItem col={8} s={12}>
-               {showGuidedTour ? <GuidedTourHomepage /> : <ContentBlocks />}
-             </GridItem>
-             <GridItem col={4} s={12}>
-               <SocialLinks />
-             </GridItem>
--          </Grid>
-+          </Grid> */}
-         </Box>
-       </Main>
-     </Layout>

@@ -56,22 +56,12 @@ export default {
     translations: {
       en: {
         /* 'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
-        'app.components.LeftMenu.navbrand.workplace': 'Admin panel',
-        'app.components.HomePage.welcome.again': 'Bem-vindo ao Strapi',
-        'app.components.HomePage.welcomeBlock.content.again': ' ',
-        'app.components.HomePage.welcome': 'Bem-vindo ao Strapi',
-        'app.components.HomePage.welcomeBlock.content': ' ',
-        'app.components.HomePage.button.blog': ' ',
-        'app.components.HomePage.create': ' ',
-        "global.content-manager": "Conteúdo",
-        "global.plugins.content-manager": "Content Manager", */
+        'app.components.LeftMenu.navbrand.workplace': 'Admin panel',*/
       },  
       'pt-BR': {
         "Auth.form.welcome.title": "Bem-vindo ao Strapi",
         'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
         'app.components.LeftMenu.navbrand.workplace': 'Painel',
-        // 'app.components.HomePage.button.blog': "Netimóveis",
-        'app.components.HomePage.welcomeBlock.content.again': 'Fique por dentro das últimas novidades sobre o Strapi. Estamos sempre dando o nosso melhor para melhorar o produto sempre baseando-se em sua opinião.',
         'global.content-manager': "Gerenciar Conteúdo",
         'HomePage.helmet.title': "Início",
         /* 'app.components.BlockLink.cloud': " ",

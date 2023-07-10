@@ -70,7 +70,7 @@ export default {
         "Auth.form.welcome.title": "Bem-vindo ao Strapi",
         'app.components.LeftMenu.navbrand.title': 'Netimóveis Dashboard',
         'app.components.LeftMenu.navbrand.workplace': 'Painel',
-        // 'app.components.HomePage.button.blog': "Netimóveis",
+        'app.components.HomePage.button.blog': "Netimóveis",
         'app.components.HomePage.welcomeBlock.content.again': 'Fique por dentro das últimas novidades sobre o Strapi. Estamos sempre dando o nosso melhor para melhorar o produto sempre baseando-se em sua opinião.',
         'global.content-manager': "Gerenciar Conteúdo",
         'HomePage.helmet.title': "Início",
