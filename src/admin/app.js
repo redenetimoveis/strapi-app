@@ -64,6 +64,7 @@ export default {
         'app.components.LeftMenu.navbrand.workplace': 'Painel',
         'global.content-manager': "Gerenciar Conteúdo",
         'HomePage.helmet.title': "Início",
+        'app.components.HomePage.button.blog': "Netimóveis"
         /* 'app.components.BlockLink.cloud': " ",
         'app.components.BlockLink.cloud.content': " ",
         'app.components.BlockLink.documentation.content': " ",
