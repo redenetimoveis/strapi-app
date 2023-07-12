@@ -2,7 +2,8 @@
   "collectionName": "components_page_componentes",
   "info": {
     "displayName": "Componente",
-    "icon": "cloud"
+    "icon": "cloud",
+    "description": ""
   },
   "options": {},
   "attributes": {

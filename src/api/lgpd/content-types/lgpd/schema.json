@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lgpds",
+  "info": {
+    "singularName": "lgpd",
+    "pluralName": "lgpds",
+    "displayName": "LGPD"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TermosUso": {
+      "type": "boolean"
+    },
+    "PoliticaPrivacidade": {
+      "type": "boolean"
+    }
+  }
+}

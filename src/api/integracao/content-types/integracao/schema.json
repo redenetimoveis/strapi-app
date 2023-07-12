@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "integracoes",
+  "info": {
+    "singularName": "integracao",
+    "pluralName": "integracoes",
+    "displayName": "Integração"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Teste": {
+      "type": "string"
+    }
+  }
+}

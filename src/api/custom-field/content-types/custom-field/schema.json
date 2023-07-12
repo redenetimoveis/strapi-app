@@ -49,6 +49,12 @@
         "Option 3"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "TextoComImagem": {
+      "type": "dynamiczone",
+      "components": [
+        "page.componente"
+      ]
     }
   }
 }
