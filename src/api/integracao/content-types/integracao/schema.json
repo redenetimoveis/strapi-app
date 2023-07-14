@@ -4,15 +4,83 @@
   "info": {
     "singularName": "integracao",
     "pluralName": "integracoes",
-    "displayName": "Integração"
+    "displayName": "Integração",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Teste": {
+    "APIKeyGoogleMaps": {
       "type": "string"
+    },
+    "GoogleAnalytics": {
+      "type": "string"
+    },
+    "PixelFacebook": {
+      "type": "string"
+    },
+    "MetaTagFacebook": {
+      "type": "string"
+    },
+    "GoogleTagManager": {
+      "type": "string"
+    },
+    "CodigoJivochat": {
+      "type": "string"
+    },
+    "CodigoJavaScriptIndependenteHead": {
+      "type": "string"
+    },
+    "CodigoJavaScriptIndependenteBody": {
+      "type": "string"
+    },
+    "RDStation": {
+      "type": "string"
+    },
+    "ImoviewConfiguracaoEsteiraDigital": {
+      "type": "boolean"
+    },
+    "ImoviewCodigoConvenioCliente": {
+      "type": "string"
+    },
+    "ImoviewClienteRotaImoview": {
+      "type": "string"
+    },
+    "HelpImob": {
+      "type": "boolean"
+    },
+    "WhatsappBotaoMastersite": {
+      "type": "boolean"
+    },
+    "WhatsappTextoBotao": {
+      "type": "string"
+    },
+    "WhatsappTituloCaixa": {
+      "type": "string"
+    },
+    "WhatsappDescricaoCaixa": {
+      "type": "string"
+    },
+    "WhatsappRodapeCaixa": {
+      "type": "string"
+    },
+    "WhatsappNumeroWhatsapp": {
+      "type": "string"
+    },
+    "WhatsappTituloContato": {
+      "type": "string"
+    },
+    "WhatsappDescricaoContato": {
+      "type": "string"
+    },
+    "WhatsappAvatarContato": {
+      "type": "enumeration",
+      "enum": [
+        "Feminino",
+        "Masculino"
+      ]
     }
   }
 }

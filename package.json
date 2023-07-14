@@ -16,6 +16,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "@ef2/strapi-plugin-bold-title-editor": "^1.0.8",
     "@strapi/admin": "^4.11.3",
     "@strapi/plugin-color-picker": "^4.11.4",
     "@strapi/plugin-i18n": "4.11.3",

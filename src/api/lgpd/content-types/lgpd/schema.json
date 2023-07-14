@@ -4,7 +4,8 @@
   "info": {
     "singularName": "lgpd",
     "pluralName": "lgpds",
-    "displayName": "LGPD"
+    "displayName": "LGPD",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -16,6 +17,13 @@
     },
     "PoliticaPrivacidade": {
       "type": "boolean"
+    },
+    "Title": {
+      "type": "customField",
+      "options": {
+        "output": "markdown"
+      },
+      "customField": "plugin::bold-title-editor.title"
     }
   }
 }
