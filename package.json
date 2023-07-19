@@ -16,6 +16,8 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@ef2/strapi-plugin-bold-title-editor": "^1.0.8",
     "@strapi/admin": "^4.11.3",
     "@strapi/plugin-color-picker": "^4.11.4",
@@ -26,6 +28,7 @@
     "patch-package": "^7.0.0",
     "pg": "^8.11.0",
     "postinstall-postinstall": "^2.1.0",
+    "strapi-gtm-module": "^0.0.5",
     "strapi-plugin-multi-select": "^1.1.0",
     "strapi-plugin-sitemap": "^3.0.0",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0",

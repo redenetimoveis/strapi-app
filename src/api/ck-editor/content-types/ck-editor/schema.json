@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ck_editors",
+  "info": {
+    "singularName": "ck-editor",
+    "pluralName": "ck-editors",
+    "displayName": "CKEditor"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Teste01": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Teste02": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
