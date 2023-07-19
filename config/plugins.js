@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   "strapi-gtm-module": {
     config: {
-      gtmId: '',
+      gtmId: 'GTM-KD3QKVM7',
       measurementId: '',
     },
   },
