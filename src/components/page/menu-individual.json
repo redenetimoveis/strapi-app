@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_menu_individuals",
+  "info": {
+    "displayName": "Menu Individual",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

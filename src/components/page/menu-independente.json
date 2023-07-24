@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_menu_independentes",
+  "info": {
+    "displayName": "Menu Independente",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    }
+  }
+}

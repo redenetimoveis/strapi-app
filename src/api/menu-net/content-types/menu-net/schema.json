@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_nets",
+  "info": {
+    "singularName": "menu-net",
+    "pluralName": "menu-nets",
+    "displayName": "Menu Netimóveis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logoPrincipal": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logoBranca": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tamanhoLogos": {
+      "type": "enumeration",
+      "enum": [
+        "Pequeno",
+        "Médio",
+        "Grande"
+      ]
+    },
+    "tamanhoFontes": {
+      "type": "enumeration",
+      "enum": [
+        "Padrão",
+        "Pequeno",
+        "Médio",
+        "Grande"
+      ]
+    },
+    "corFonteMenuInicial": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "contato": {
+      "type": "boolean"
+    },
+    "blog": {
+      "type": "boolean"
+    },
+    "menuIndependente": {
+      "displayName": "Menu Independente",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-independente",
+      "max": 2
+    },
+    "menuIndividual": {
+      "displayName": "Menu Individual",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-individual"
+    },
+    "botaoDestaque": {
+      "displayName": "Botão Destaque",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.botao-destaque"
+    },
+    "areaLoginCliente": {
+      "type": "boolean"
+    },
+    "exibirMenuInstitucional": {
+      "type": "boolean"
+    }
+  }
+}

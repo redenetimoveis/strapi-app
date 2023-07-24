@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_botao_destaques",
+  "info": {
+    "displayName": "Botão Destaque",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "novaAba": {
+      "type": "boolean"
+    },
+    "cor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "corFonte": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

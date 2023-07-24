@@ -20,18 +20,6 @@
       "type": "string",
       "required": false
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "posts"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category",
-      "mappedBy": "post"
-    },
     "picture": {
       "type": "media",
       "multiple": true,
