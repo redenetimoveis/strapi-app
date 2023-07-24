@@ -34,41 +34,6 @@
       "repeatable": true,
       "component": "page.social-link"
     },
-    "exibirInformacaoMatrizTopo": {
-      "type": "enumeration",
-      "enum": [
-        "Apenas informações da matriz",
-        "Ocultar todos os dados de informações de matriz e filiais",
-        "Exibir apenas o Whatsapp da matriz",
-        "Exibir todas as informações"
-      ]
-    },
-    "whatsappVenda": {
-      "type": "string"
-    },
-    "whatsappLocacao": {
-      "type": "string"
-    },
-    "whatsappCorBotao": {
-      "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
-    },
-    "telefoneVenda": {
-      "type": "string"
-    },
-    "telefoneLocacao": {
-      "type": "string"
-    },
-    "endereco": {
-      "type": "string"
-    },
-    "email": {
-      "type": "string"
-    },
-    "matrizFilial": {
-      "type": "string"
-    },
     "dadosAssociada": {
       "type": "component",
       "repeatable": false,
@@ -81,7 +46,7 @@
     },
     "informacoes": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.whatsapp-netimoveis"
     }
   }

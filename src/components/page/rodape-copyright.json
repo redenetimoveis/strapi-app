@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_rodape_copyrights",
+  "info": {
+    "displayName": "Rodapé Copyright",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "corFonte": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "corFundo": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "tamanhoFonte": {
+      "type": "integer"
+    }
+  }
+}

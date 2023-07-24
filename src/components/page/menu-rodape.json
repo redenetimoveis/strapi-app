@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_menu_rodape",
+  "info": {
+    "displayName": "Menu Rodapé",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ativarMenuRodape": {
+      "type": "boolean"
+    },
+    "corFonteTitulos": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "corFonteItens": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "tamanhoFonteTitulos": {
+      "type": "integer"
+    },
+    "tamanhoFonteItens": {
+      "type": "integer"
+    }
+  }
+}

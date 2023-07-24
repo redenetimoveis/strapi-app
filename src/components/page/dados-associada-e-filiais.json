@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_dados_associada_e_filiais",
+  "info": {
+    "displayName": "Dados Associada e Filiais",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "corFonte": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "tamanhoFonteTitulos": {
+      "type": "integer"
+    },
+    "tamanhoFonteItens": {
+      "type": "integer"
+    }
+  }
+}

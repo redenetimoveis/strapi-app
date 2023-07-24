@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer-net",
     "pluralName": "footer-nets",
-    "displayName": "Footer Netimóveis"
+    "displayName": "Footer Netimóveis",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -13,6 +14,35 @@
   "attributes": {
     "rodapeCustomizado": {
       "type": "boolean"
+    },
+    "corFundoRodape": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "menuRodape": {
+      "displayName": "Menu Rodapé",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.menu-rodape"
+    },
+    "dadosAssociadaFiliais": {
+      "displayName": "Dados Associada e Filiais",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.dados-associada-e-filiais"
+    },
+    "redesSociaisFooter": {
+      "displayName": "Redes Sociais Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.redes-sociais-footer"
+    },
+    "rodapeCopyright": {
+      "displayName": "Rodapé Copyright",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.rodape-copyright"
     }
   }
 }
