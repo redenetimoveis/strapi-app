@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_nets",
+  "info": {
+    "singularName": "header-net",
+    "pluralName": "header-nets",
+    "displayName": "Header Netimóveis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "habilitarInformacoesTopo": {
+      "type": "customField",
+      "options": [
+        "Esse botão ativa a barra de endereço no topo"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "posicaoBarraEndereco": {
+      "type": "enumeration",
+      "enum": [
+        "Topo da página",
+        "Abaixo da imagem de vitrine"
+      ]
+    },
+    "ocultarRedesSociais": {
+      "type": "boolean"
+    },
+    "redeSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    },
+    "exibirInformacaoMatrizTopo": {
+      "type": "enumeration",
+      "enum": [
+        "Apenas informações da matriz",
+        "Ocultar todos os dados de informações de matriz e filiais",
+        "Exibir apenas o Whatsapp da matriz",
+        "Exibir todas as informações"
+      ]
+    },
+    "whatsappVenda": {
+      "type": "string"
+    },
+    "whatsappLocacao": {
+      "type": "string"
+    },
+    "whatsappCorBotao": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "telefoneVenda": {
+      "type": "string"
+    },
+    "telefoneLocacao": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "matrizFilial": {
+      "type": "string"
+    },
+    "dadosAssociada": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.dados-associada"
+    },
+    "cores": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cores"
+    },
+    "informacoes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.whatsapp-netimoveis"
+    }
+  }
+}

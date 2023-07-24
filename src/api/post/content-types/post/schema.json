@@ -32,11 +32,6 @@
       "target": "api::category.category",
       "mappedBy": "post"
     },
-    "tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tag.tag"
-    },
     "picture": {
       "type": "media",
       "multiple": true,

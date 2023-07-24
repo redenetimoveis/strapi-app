@@ -4,28 +4,30 @@
   "info": {
     "singularName": "seo",
     "pluralName": "seos",
-    "displayName": "SEO"
+    "displayName": "SEO",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Descricao": {
+    "descricao": {
       "type": "text"
     },
-    "Keywords": {
+    "keywords": {
       "type": "string"
     },
-    "Titulo": {
+    "titulo": {
       "type": "string"
     },
-    "Icone": {
+    "icone": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

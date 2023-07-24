@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_whatsapp_netimoveis",
+  "info": {
+    "displayName": "Whatsapp Netimóveis",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "whatsappVenda": {
+      "type": "string"
+    },
+    "whatsappLocacao": {
+      "type": "string"
+    },
+    "whatsappCorBotao": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "telefoneVenda": {
+      "type": "string"
+    },
+    "telefoneLocacao": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "matrizFilial": {
+      "type": "string"
+    },
+    "exibirInformacaoMatrizTopo": {
+      "type": "enumeration",
+      "enum": [
+        "Apenas informações da matriz",
+        "Ocultar todos os dados de informações de matriz e filiais",
+        "Exibir apenas o Whatsapp da matriz",
+        "Exibir todas as informações"
+      ]
+    }
+  }
+}

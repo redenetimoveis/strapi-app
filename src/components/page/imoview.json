@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_imoviews",
+  "info": {
+    "displayName": "Imoview",
+    "icon": "gate"
+  },
+  "options": {},
+  "attributes": {
+    "imoviewCodigoConvenioCliente": {
+      "type": "string"
+    },
+    "imoviewClienteRotaImoview": {
+      "type": "string"
+    },
+    "imoviewConfiguracaoEsteiraDigital": {
+      "type": "boolean"
+    }
+  }
+}

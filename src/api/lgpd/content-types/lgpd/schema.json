@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "TermosUso": {
+    "termosUso": {
       "type": "boolean"
     },
-    "PoliticaPrivacidade": {
+    "politicaPrivacidade": {
       "type": "boolean"
     },
-    "Title": {
+    "title": {
       "type": "customField",
       "options": {
         "output": "markdown"

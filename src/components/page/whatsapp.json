@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_page_whatsapps",
+  "info": {
+    "displayName": "Whatsapp",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "whatsappBotaoMastersite": {
+      "type": "boolean"
+    },
+    "whatsappTextoBotao": {
+      "type": "string"
+    },
+    "whatsappTituloCaixa": {
+      "type": "string"
+    },
+    "whatsappDescricaoCaixa": {
+      "type": "string"
+    },
+    "whatsappRodapeCaixa": {
+      "type": "string"
+    },
+    "whatsappNumerowhatsapp": {
+      "type": "string"
+    },
+    "whatsappTituloContato": {
+      "type": "string"
+    },
+    "whatsappDescricaoContato": {
+      "type": "string"
+    },
+    "whatsappAvatarContato": {
+      "type": "enumeration",
+      "enum": [
+        "Feminino",
+        "Masculino"
+      ]
+    }
+  }
+}

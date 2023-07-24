@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_dados_associadas",
+  "info": {
+    "displayName": "Dados Associada",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "razaoSocial": {
+      "type": "string"
+    },
+    "cnpj": {
+      "type": "biginteger"
+    }
+  }
+}

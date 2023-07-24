@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_page_cores",
+  "info": {
+    "displayName": "Cores",
+    "icon": "paint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "corBarraPadrao": {
+      "type": "enumeration",
+      "enum": [
+        "Transparente",
+        "Preto",
+        "Laranja",
+        "Roxo",
+        "Vermelho",
+        "Azul",
+        "Verde",
+        "Cinza",
+        "Amarelo",
+        "Verde-água",
+        "Rosa"
+      ]
+    },
+    "corBarraCustomizada": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "corFonte": {
+      "type": "enumeration",
+      "enum": [
+        "Preto",
+        "Laranja",
+        "Roxo",
+        "Vermelho",
+        "Azul",
+        "Verde",
+        "Cinza",
+        "Amarelo",
+        "Verde-água",
+        "Rosa"
+      ]
+    }
+  }
+}

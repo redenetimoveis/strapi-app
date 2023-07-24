@@ -30,12 +30,6 @@
         "Ontem"
       ]
     },
-    "Componente": {
-      "displayName": "Componente",
-      "type": "component",
-      "repeatable": true,
-      "component": "page.componente"
-    },
     "ColorPick": {
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
@@ -52,9 +46,7 @@
     },
     "TextoComImagem": {
       "type": "dynamiczone",
-      "components": [
-        "page.componente"
-      ]
+      "components": []
     }
   }
 }

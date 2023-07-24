@@ -12,91 +12,50 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "APIKeyGoogleMaps": {
+    "apiKeyGoogleMaps": {
       "type": "string"
     },
-    "GoogleAnalytics": {
+    "googleAnalytics": {
       "type": "string"
     },
-    "PixelFacebook": {
+    "pixelFacebook": {
       "type": "string"
     },
-    "MetaTagFacebook": {
+    "metaTagFacebook": {
       "type": "string"
     },
-    "GoogleTagManager": {
+    "googleTagManager": {
       "type": "string"
     },
-    "CodigoJivochat": {
+    "codigoJivochat": {
       "type": "string"
     },
-    "CodigoJavaScriptIndependenteHead": {
+    "codigoJavaScriptIndependenteHead": {
       "type": "string"
     },
-    "CodigoJavaScriptIndependenteBody": {
+    "codigoJavaScriptIndependenteBody": {
       "type": "string"
     },
-    "RDStation": {
+    "rdStation": {
       "type": "string"
     },
-    "ImoviewConfiguracaoEsteiraDigital": {
+    "helpImob": {
       "type": "boolean"
     },
-    "ImoviewCodigoConvenioCliente": {
-      "type": "string"
+    "sohtec": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.sohtec"
     },
-    "ImoviewClienteRotaImoview": {
-      "type": "string"
+    "imoview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.imoview"
     },
-    "HelpImob": {
-      "type": "boolean"
-    },
-    "WhatsappBotaoMastersite": {
-      "type": "boolean"
-    },
-    "WhatsappTextoBotao": {
-      "type": "string"
-    },
-    "WhatsappTituloCaixa": {
-      "type": "string"
-    },
-    "WhatsappDescricaoCaixa": {
-      "type": "string"
-    },
-    "WhatsappRodapeCaixa": {
-      "type": "string"
-    },
-    "WhatsappNumeroWhatsapp": {
-      "type": "string"
-    },
-    "WhatsappTituloContato": {
-      "type": "string"
-    },
-    "WhatsappDescricaoContato": {
-      "type": "string"
-    },
-    "WhatsappAvatarContato": {
-      "type": "enumeration",
-      "enum": [
-        "Feminino",
-        "Masculino"
-      ]
-    },
-    "SohtecAtivarBotao": {
-      "type": "boolean"
-    },
-    "SohtecEscolherOpcao": {
-      "type": "enumeration",
-      "enum": [
-        "AGENDAR VISITA",
-        "PROPOSTA",
-        "ALUGAR ONLINE"
-      ]
-    },
-    "SohtecTemaBotao": {
-      "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
+    "whatsapp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.whatsapp"
     }
   }
 }

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * menu-v2 controller
+ * header-net controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::menu-v2.menu-v2');
+module.exports = createCoreController('api::header-net.header-net');
