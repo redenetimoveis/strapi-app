@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_nets",
+  "info": {
+    "singularName": "footer-net",
+    "pluralName": "footer-nets",
+    "displayName": "Footer Netimóveis"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rodapeCustomizado": {
+      "type": "boolean"
+    }
+  }
+}

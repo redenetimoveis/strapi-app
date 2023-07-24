@@ -17,13 +17,6 @@
     },
     "politicaPrivacidade": {
       "type": "boolean"
-    },
-    "title": {
-      "type": "customField",
-      "options": {
-        "output": "markdown"
-      },
-      "customField": "plugin::bold-title-editor.title"
     }
   }
 }
