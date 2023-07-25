@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_menu_rodape",
   "info": {
-    "displayName": "Rodapé Menu",
+    "displayName": "Menu Rodapé",
     "icon": "apps",
     "description": ""
   },
@@ -22,6 +22,12 @@
     },
     "tamanhoFonteItens": {
       "type": "integer"
+    },
+    "dadosMenuRodape": {
+      "displayName": "Dados do Menu Rodapé",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.dados-do-menu-rodape"
     }
   }
 }

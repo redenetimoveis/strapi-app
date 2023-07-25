@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_rodape_copyrights",
   "info": {
-    "displayName": "Rodapé Copyright",
-    "icon": "check"
+    "displayName": "Copyright Rodapé",
+    "icon": "check",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -35,7 +35,7 @@
       "repeatable": false,
       "component": "page.redes-sociais-footer"
     },
-    "rodapeCopyright": {
+    "copyrightRodape": {
       "displayName": "Rodapé Copyright",
       "type": "component",
       "repeatable": false,
