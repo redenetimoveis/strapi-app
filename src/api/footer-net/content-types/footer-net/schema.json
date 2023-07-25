@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "rodapeCustomizado": {
-      "type": "boolean"
-    },
     "corFundoRodape": {
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
@@ -32,7 +29,7 @@
       "repeatable": false,
       "component": "page.dados-associada-e-filiais"
     },
-    "redesSociaisFooter": {
+    "redesSociaisRodape": {
       "displayName": "Redes Sociais Footer",
       "type": "component",
       "repeatable": false,

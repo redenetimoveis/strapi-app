@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_submenus",
+  "info": {
+    "displayName": "Submenu",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "nomeItem": {
+      "type": "string"
+    },
+    "linkItem": {
+      "type": "string"
+    },
+    "novaAba": {
+      "type": "boolean"
+    }
+  }
+}
