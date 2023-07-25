@@ -2,12 +2,18 @@
   "collectionName": "components_page_menu_independentes",
   "info": {
     "displayName": "Menu Independente",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "nome": {
       "type": "string"
+    },
+    "submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.submenu"
     }
   }
 }

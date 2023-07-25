@@ -53,9 +53,6 @@
     "contato": {
       "type": "boolean"
     },
-    "blog": {
-      "type": "boolean"
-    },
     "menuIndependente": {
       "displayName": "Menu Independente",
       "type": "component",
@@ -67,7 +64,8 @@
       "displayName": "Menu Individual",
       "type": "component",
       "repeatable": true,
-      "component": "page.menu-individual"
+      "component": "page.menu-individual",
+      "max": 2
     },
     "botaoDestaque": {
       "displayName": "Botão Destaque",
@@ -80,6 +78,9 @@
     },
     "exibirMenuInstitucional": {
       "type": "boolean"
+    },
+    "blog": {
+      "type": "string"
     }
   }
 }
