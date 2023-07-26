@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_dados_do_menu_rodape_colunas",
+  "info": {
+    "displayName": "Dados do Menu Rodapé - Colunas",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

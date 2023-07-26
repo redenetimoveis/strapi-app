@@ -23,11 +23,26 @@
     "tamanhoFonteItens": {
       "type": "integer"
     },
-    "dadosMenuRodape": {
-      "displayName": "Dados do Menu Rodapé",
+    "coluna1": {
+      "displayName": "Dados do Menu Rodapé - Colunas",
       "type": "component",
-      "repeatable": false,
-      "component": "page.dados-do-menu-rodape"
+      "repeatable": true,
+      "component": "page.dados-do-menu-rodape-colunas"
+    },
+    "coluna2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.dados-do-menu-rodape-colunas"
+    },
+    "coluna3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.dados-do-menu-rodape-colunas"
+    },
+    "coluna4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.dados-do-menu-rodape-colunas"
     }
   }
 }
