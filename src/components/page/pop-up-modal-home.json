@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_pop_up_modal_homes",
+  "info": {
+    "displayName": "Pop-up Modal - Home",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "tempoExibicao": {
+      "type": "decimal"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "modoMobile": {
+      "type": "boolean"
+    },
+    "imagemDiferenteMobile": {
+      "type": "boolean"
+    },
+    "linkImagem": {
+      "type": "string"
+    }
+  }
+}

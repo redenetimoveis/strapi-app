@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_banners_da_inicial_homes",
+  "info": {
+    "displayName": "Banners da Inicial - Home",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "altImagem": {
+      "type": "string"
+    },
+    "textoBotao": {
+      "type": "string"
+    },
+    "urlBanner": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_institucional_homes",
+  "info": {
+    "displayName": "Institucional - Home",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "exibir": {
+      "type": "boolean"
+    },
+    "temaBotoes": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "itens": {
+      "displayName": "Itens do Institucional - Home",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.itens-do-institucional-home"
+    }
+  }
+}

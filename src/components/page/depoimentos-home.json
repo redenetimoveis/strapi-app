@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_depoimentos_homes",
+  "info": {
+    "displayName": "Depoimentos - Home",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "exibir": {
+      "type": "boolean"
+    },
+    "depoimentosItens": {
+      "displayName": "Depoimentos Itens - Home",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.depoimentos-itens-home"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_banners_homes",
+  "info": {
+    "displayName": "Banners - Home",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tituloBanner": {
+      "type": "string"
+    },
+    "exibir": {
+      "type": "boolean"
+    },
+    "bannersInicial": {
+      "displayName": "Banners da Inicial - Home",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.banners-da-inicial-home",
+      "max": 3
+    }
+  }
+}

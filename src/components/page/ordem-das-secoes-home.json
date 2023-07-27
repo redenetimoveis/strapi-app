@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_ordem_das_secoes_homes",
+  "info": {
+    "displayName": "Ordem das Seções - Home",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "imoveisDestaque": {
+      "type": "integer"
+    },
+    "sobreEmpresa": {
+      "type": "integer"
+    },
+    "banners": {
+      "type": "integer"
+    },
+    "depoimentos": {
+      "type": "integer"
+    },
+    "lancamentos": {
+      "type": "integer"
+    },
+    "destaquePortugal": {
+      "type": "integer"
+    }
+  }
+}

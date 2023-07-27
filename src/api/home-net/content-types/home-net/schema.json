@@ -1,0 +1,167 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_nets",
+  "info": {
+    "singularName": "home-net",
+    "pluralName": "home-nets",
+    "displayName": "Home Netimoveis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "tamanhoFonteTitulo": {
+      "type": "enumeration",
+      "enum": [
+        "Padrão",
+        "Pequeno",
+        "Médio",
+        "Grande"
+      ]
+    },
+    "corTitulo": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "tamanhoFonteSubtitulo": {
+      "type": "enumeration",
+      "enum": [
+        "Padrão",
+        "Pequeno",
+        "Médio",
+        "Grande"
+      ]
+    },
+    "corSubtitulo": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "botaoTransacao": {
+      "type": "enumeration",
+      "enum": [
+        "Venda / Locação",
+        "Venda",
+        "Locação"
+      ]
+    },
+    "posicaoBotaoTransacao": {
+      "type": "enumeration",
+      "enum": [
+        "Comprar - Alugar",
+        "Alugar - Comprar"
+      ]
+    },
+    "corBotaoTransacao": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "ordemSecoesHome": {
+      "displayName": "Ordem das Seções - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.ordem-das-secoes-home"
+    },
+    "imagemVitrine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoVitrine": {
+      "type": "string"
+    },
+    "corVitrineMobile": {
+      "type": "enumeration",
+      "enum": [
+        "Gradiente Linear",
+        "Preenchimento Completo"
+      ]
+    },
+    "corMobileGradiente": {
+      "displayName": "Cor Mobile Gradiente - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cor-mobile-gradiente-home"
+    },
+    "alturaImagemVitrine": {
+      "type": "enumeration",
+      "enum": [
+        "A = 563px",
+        "A = 663px",
+        "A = 763px",
+        "A = 863px"
+      ]
+    },
+    "expandirMaisFiltros": {
+      "type": "boolean"
+    },
+    "destaques": {
+      "displayName": "Destaques - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.destaques-home"
+    },
+    "destaquesVenda": {
+      "displayName": "Destaques de Venda - Home",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.destaques-de-venda-home"
+    },
+    "destaquesLocacao": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.destaques-de-venda-home"
+    },
+    "destaquesLancamentos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.destaques-de-venda-home"
+    },
+    "banners": {
+      "displayName": "Banners - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banners-home"
+    },
+    "coresBotoes": {
+      "displayName": "Cores de Botões - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cores-de-botoes-home"
+    },
+    "institucional": {
+      "displayName": "Institucional - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.institucional-home"
+    },
+    "depoimentos": {
+      "displayName": "Depoimentos - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.depoimentos-home"
+    },
+    "destaquePortugal": {
+      "type": "boolean"
+    },
+    "popupModal": {
+      "displayName": "Pop-up Modal - Home",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pop-up-modal-home"
+    }
+  }
+}

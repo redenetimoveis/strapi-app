@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_depoimentos_itens_homes",
+  "info": {
+    "displayName": "Depoimentos Itens - Home",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "profissao": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    }
+  }
+}

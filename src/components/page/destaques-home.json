@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_destaques_homes",
+  "info": {
+    "displayName": "Destaques - Home",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "tituloDestaques": {
+      "type": "string"
+    },
+    "exibir": {
+      "type": "boolean"
+    }
+  }
+}

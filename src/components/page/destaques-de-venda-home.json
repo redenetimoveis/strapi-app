@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_destaques_de_venda_homes",
+  "info": {
+    "displayName": "Destaques de Venda/Locação/Lançamentos - Home",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "codigoImovel": {
+      "type": "biginteger"
+    },
+    "valorAnteriorImovel": {
+      "type": "decimal"
+    }
+  }
+}

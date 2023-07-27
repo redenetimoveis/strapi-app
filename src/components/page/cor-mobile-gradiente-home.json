@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_cor_mobile_gradiente_homes",
+  "info": {
+    "displayName": "Cor Mobile Gradiente - Home",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "cor1": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "cor2": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

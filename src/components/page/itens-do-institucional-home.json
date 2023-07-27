@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_itens_do_institucional_homes",
+  "info": {
+    "displayName": "Itens do Institucional - Home",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "textoLink": {
+      "type": "string"
+    },
+    "linkItem": {
+      "type": "string"
+    }
+  }
+}
